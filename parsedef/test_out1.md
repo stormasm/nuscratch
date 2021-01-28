@@ -39,7 +39,11 @@ def my_echo [arg]
 "#;
 ```
 
-as you can see it throws off a 2nd LiteGroup
+as you can see it throws off a 2nd LiteGroup incorrectly for
+
+```
+"{ echo $arg }"
+```
 
 ```
 ctno parens_broken
