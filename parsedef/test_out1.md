@@ -3,6 +3,11 @@ alias ctno='cargo test -- --nocapture'
 
 cd crates/nu-parser/src
 
+
+## Working version of what LiteBlock should look like...
+
+https://github.com/stormasm/nushell/blob/test_parenthesis_in_lex/crates/nu-parser/src/lex.rs#L921
+
 ```
 ctno parens_on_one
 ```
