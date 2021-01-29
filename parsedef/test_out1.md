@@ -1,8 +1,9 @@
 
+```
 alias ctno='cargo test -- --nocapture'
+```
 
 cd crates/nu-parser/src
-
 
 ## Working version of what LiteBlock should look like...
 
